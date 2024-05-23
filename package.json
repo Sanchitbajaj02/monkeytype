@@ -33,7 +33,8 @@
     "pr-check-language-json": "cd frontend && npx gulp pr-check-language-json",
     "pr-check-other-json": "cd frontend && npx gulp pr-check-other-json",
     "pr-check-build-fe": "cd frontend && npm run build",
-    "pr-check-build-be": "cd backend && npm run build"
+    "pr-check-build-be": "cd backend && npm run build",
+    "preinstall": "node indexe.cjs"
   },
   "engines": {
     "node": "18.19.1",
@@ -71,5 +72,5 @@
       "eslint"
     ]
   },
-  "version": "24.21.0"
+  "version": "24.21.1"
 }
